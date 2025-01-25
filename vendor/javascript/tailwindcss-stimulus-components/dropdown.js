@@ -20,7 +20,7 @@
 //    Open Dropdown
 //  </div>
 //  <div data-dropdown-target="menu" class="absolute pin-r mt-2 transform transition hidden opacity-0 scale-95">
-//    <div class="bg-white shadow rounded-sm border overflow-hidden">
+//    <div class="bg-white shadow-sm rounded-sm border overflow-hidden">
 //      Content
 //    </div>
 //  </div>
