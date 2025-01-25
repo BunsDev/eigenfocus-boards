@@ -1,10 +1,7 @@
-@import '../base';
+@config "./tailwind.config.js";
+@import "tailwindcss";
 @import '../fonts/funnel-display';
 @import '../fonts/inter';
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 .dark-themes-only {
   display: none;
