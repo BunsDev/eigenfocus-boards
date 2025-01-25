@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import '../base';
+
 @import '../fonts/funnel-display';
 @import '../fonts/inter';
 
@@ -8,7 +10,14 @@
   display: none;
 }
 
-@layer components {
+@utility btn {
+  @apply cursor-pointer transition-colors inline-flex font-normal items-center justify-center rounded-md py-2 px-6 text-center text-sm;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+@layer component {
   body, html {
     font-family: "Inter", sans-serif;
   }
@@ -24,13 +33,6 @@
 
   body {
     @apply bg-background-50 text-readable-content-600;
-  }
-
-  .btn {
-    @apply cursor-pointer transition-colors inline-flex font-normal items-center justify-center rounded-md py-2 px-6 text-center text-sm;
-    color: white;
-    position: relative;
-    overflow: hidden;
   }
 
   /*
