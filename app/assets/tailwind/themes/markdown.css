@@ -1,3 +1,4 @@
+@layer component {
 .markdown-editor .editor-toolbar {
   display: flex;
   align-items: center;
@@ -7,7 +8,7 @@
 }
 
 .markdown-editor .editor-toolbar > a {
-  @apply text-readable-content-500 !important;
+  @apply text-readable-content-500;
   display: inline-flex;
   flex-direction: row;
   align-items: center;
@@ -19,18 +20,18 @@
 }
 
 .markdown-editor .editor-toolbar > a:hover {
-  @apply bg-background-50 !important;
+  @apply bg-background-50;
 }
 
 .markdown-editor .CodeMirror {
-  @apply text-readable-content-500 bg-background-50 !important;
+  @apply text-readable-content-500 bg-background-50;
 }
 
 .markdown-editor .CodeMirror-cursor {
-  @apply border-readable-content-500 !important;
+  @apply border-readable-content-500;
 }
 
-pre.CodeMirror-line { overflow-wrap: anywhere !important; }
+pre.CodeMirror-line { overflow-wrap: anywhere; }
 
 :is(.markdown-content, .editor-preview) {
   @apply bg-background-50 text-readable-content-800 font-sans leading-relaxed;
@@ -112,4 +113,5 @@ pre.CodeMirror-line { overflow-wrap: anywhere !important; }
 /* Horizontal Rules */
 :is(.markdown-content, .editor-preview) hr {
   @apply border-t border-background-300 my-6;
+}
 }

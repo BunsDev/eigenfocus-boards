@@ -1,10 +1,11 @@
 @import "tailwindcss";
-@import '../base';
 
 @import '../fonts/funnel-display';
 @import '../fonts/inter';
 
 @import "./config.colors";
+
+@import '../base';
 
 .dark-themes-only {
   display: none;
