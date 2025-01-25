@@ -29,7 +29,7 @@ module Modal
             <a class="absolute text-xl top-4 right-4 cursor-pointer text-md text-readable-content-500" data-action="click->modal#close">
               <i class="fa fa-close"></i>
             </a>
-            <div class="m-1 bg-body-contrast rounded shadow-lg">
+            <div class="m-1 bg-body-contrast rounded-sm shadow-lg">
               <div class="p-5">
                 #{capture(&block)}
               </div>

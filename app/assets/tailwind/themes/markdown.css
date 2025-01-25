@@ -76,7 +76,7 @@ pre.CodeMirror-line { overflow-wrap: anywhere !important; }
 
 /* Code */
 :is(.markdown-content, .editor-preview) code {
-  @apply bg-background-100 text-readable-content-800 px-1 py-0.5 rounded font-mono text-sm;
+  @apply bg-background-100 text-readable-content-800 px-1 py-0.5 rounded-sm font-mono text-sm;
 }
 :is(.markdown-content, .editor-preview) pre {
   @apply bg-background-900 text-readable-content-100 p-4 rounded-md overflow-x-auto;

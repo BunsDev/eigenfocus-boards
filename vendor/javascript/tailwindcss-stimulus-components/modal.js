@@ -13,7 +13,7 @@
 //     <!-- Modal Inner Container -->
 //     <div class="max-h-screen w-full max-w-lg relative">
 //       <!-- Modal Card -->
-//       <div class="m-1 bg-white rounded shadow">
+//       <div class="m-1 bg-white rounded-sm shadow">
 //         <div class="p-8">
 //           <h2 class="text-xl mb-4">Large Modal Content</h2>
 //           <p class="mb-4">This is an example modal dialog box.</p>
@@ -127,7 +127,7 @@ export default class extends Controller {
     if(this.restoreScrollValue) {
       // Save the scroll position
       this.saveScrollPosition();
-      
+
       // Add negative top position in order for body to stay in place
       document.body.style.top = `-${this.scrollPosition}px`;
     }
@@ -143,7 +143,7 @@ export default class extends Controller {
     // Restore the scroll position of the body before it got locked
     if(this.restoreScrollValue) {
       this.restoreScrollPosition();
-      
+
       // Remove the negative top inline style from body
       document.body.style.top = null;
     }
